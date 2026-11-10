@@ -1,0 +1,72 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+}
+
+header {
+    background: #173b67;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 750px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+h2 {
+    color: #173b67;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background: #1769aa;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104b7a;
+}
+
+.complaint {
+    background: #f1f5f9;
+    padding: 15px;
+    margin: 12px 0;
+    border-left: 4px solid #1769aa;
+    border-radius: 6px;
+}
+
+.complaint select {
+    width: auto;
+    margin-right: 8px;
+}
+
+.delete {
+    background: #dc3545;
+}

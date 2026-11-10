@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CampusCare</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>CampusCare</h1>
+    <p>Student Complaint Management System</p>
+</header>
+
+<div class="container">
+    <h2>Submit Your Complaint</h2>
+
+    <form id="complaintForm">
+        <input type="text" id="name"
+            placeholder="Enter Student Name" required>
+
+        <select id="category" required>
+            <option value="">Select Complaint Category</option>
+            <option>Classroom Maintenance</option>
+            <option>Hostel Problems</option>
+            <option>Electricity Issues</option>
+            <option>Water Problems</option>
+            <option>Cleanliness</option>
+        </select>
+
+        <textarea id="description"
+            placeholder="Describe your complaint"
+            required></textarea>
+
+        <button type="submit">Submit Complaint</button>
+    </form>
+
+    <h2>Complaint Dashboard</h2>
+    <div id="complaintList"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
